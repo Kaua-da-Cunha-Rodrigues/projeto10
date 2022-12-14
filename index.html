@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 10</title>
+    <link rel="stylesheet" href="css/estilo.css" type="text/css"/>
+    <!--o script diferente do link puxa o código de determinado arquivo e não o arquivo em si como faz o link-->
+    <script src="js/jQuery.js" type="text/javascript"> </script> <!--Um javascript pronto que irei utilizar para efetuar animações de scrolls-->
+    <script src="js/jquery.scrollTo-1.4.2-min.js" type="text/javascript"></script>
+    <script src="js/jquery.localscroll-1.2.7-min.js" type="text/javascript"></script>
+    <script> 
+    </script>
+    <!--O parentese roxo está vazio porque ela não esta passando parãmetros para a função
+    Exemplo em uma soma: Ela passará parâmetros para dentro da função para efetuar a soma-->
+</head>
+<!--alt da esqueda + control + f identa o código-->
+<body id="body">
+    <div id="topo"> <!--100%-->
+        <div class="largurasite"> <!--900px-->
+            <div id="logo">
+                <img src="img/logo.png" alt="logo">
+            </div>
+            <div id="menu">
+                <a href="#body">
+                    Home 
+                </a> <img src="https://cdn-icons-png.flaticon.com/512/25/25694.png" alt="Ícone Home">
+                <a href="#quemsomos">
+                    Quem Somos 
+                </a> <img src="https://static.thenounproject.com/png/749127-200.png" alt="Ícone de Quem Somos">
+                <a href="#servicos">
+                    Serviços 
+                </a> <img src="https://cdn-icons-png.flaticon.com/512/942/942800.png" alt="Ícone de Serviços">
+                <a href="#contatos">
+                    Contato 
+                </a> <img src="https://cdn-icons-png.flaticon.com/512/16/16363.png" alt="Ícone de Contato">
+            </div>   
+        </div>   
+    </div> 
+    <div class="largurasite">
+        <div id="home" class="conteudo"> <!--id e class podem aparecer juntos-->
+            <img id="imagemdestaque" src="img/destaquehome.jpg" alt="Dentista">
+            <div id="conteudohome">
+                <h1>BEM VINDO AO DENTE CLEAN!</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit veniam necessitatibus omnis earum eius iusto, neque iste, atque maiores asperiores laborum modi cumque non sunt. Cumque explicabo ea deserunt provident.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, mollitia incidunt minus corporis tempora molestias. Quasi, exercitationem nam. Sint numquam voluptas illo aut ratione architecto quas, hic dicta corrupti doloribus?</p>
+            <div id="imagenshome">
+                <img src="img/imghome1.jpg" alt="menina escovando o dente">
+                <img src="img/imghome2.jpg" alt="casal feliz">
+                <img src="img/imghome3.jpg" alt="mulher no dentista">
+            </div>  
+            </div>
+        </div>
+        <div id="quemsomos" class="conteudo">
+            <h2>Quem Somos</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore ipsum exercitationem totam earum recusandae animi voluptatum blanditiis eius accusantium nesciunt iure tenetur dolores rerum, ut, reprehenderit consectetur ab adipisci nulla.</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus facere minus adipisci minima, soluta impedit eum totam aliquid quaerat deserunt suscipit id saepe provident numquam tenetur dolor aspernatur nemo. Quae.</p>
+            <img src="img/destaquequemsomos.jpg" alt="Médico"/>
+        </div>
+        <div id="servicos" class="conteudo">
+            <h2>Serviços</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore ipsum exercitationem totam earum recusandae animi voluptatum blanditiis eius accusantium nesciunt iure tenetur dolores rerum, ut, reprehenderit consectetur ab adipisci nulla.</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus facere minus adipisci minima, soluta impedit eum totam aliquid quaerat deserunt suscipit id saepe provident numquam tenetur dolor aspernatur nemo. Quae.</p>
+            <img src="img/destaqueservicos.jpg" alt="Dentista"/>
+            <ul>
+                <li>Lorem ipsum dolor sit</li>
+                <li>Lorem ipsum dolor sit</li>
+                <li>Lorem ipsum dolor sit</li>
+                <li>Lorem ipsum dolor sit</li>
+                <li>Lorem ipsum dolor sit</li>
+                <li>Lorem ipsum dolor sit</li>
+            </ul>
+        </div>
+        <div id="contatos" class="conteudo">
+            <h2>Contatos</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore ipsum exercitationem totam earum recusandae animi voluptatum blanditiis eius accusantium nesciunt iure tenetur dolores rerum, ut, reprehenderit consectetur ab adipisci nulla.</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus facere minus adipisci minima, soluta impedit eum totam aliquid quaerat deserunt suscipit id saepe provident numquam tenetur dolor aspernatur nemo. Quae.</p>
+            <img src="img/destaquecontato.jpg" alt="Enfermeiros"/>  
+            <form action="#"> <!--Abre um formulário o action é tipo o href. Ele vai enviar esses dados que a pessa digitar para algum local. Ex: pagina.php-->
+                Nome: <br>
+                <input type="text" placeholder="Digite seu Nome"/><br> <!--Abre uma área para entrada de informação, no caso desse o email-->
+                Email: <br>
+                <input type="text" placeholder="Digite seu Email"/><br>
+                Mensagem: <br>
+                <textarea name="" id="" cols="30" rows="10" aria-setsize="noresize"></textarea> <!--abre uma area de texto livre para mandar uma mensagem, por exemplo-->
+                <br/>
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+    </div>  
+    <div id="rodape">
+        Curso Programador Web
+    </div> 
+</body>
+</html>
+    
+  

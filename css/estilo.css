@@ -1,0 +1,125 @@
+html{
+    scroll-behavior: smooth;
+}
+#topo{
+    width: 100%;
+    height: 30px;
+    background-color: darkcyan;
+    position: fixed; /*Quando eu dou o scroll a barra de topo permanece no mesmo lugar*/
+}
+.largurasite{
+    width: 900px;
+    margin: auto;
+}
+#logo{
+    width: 140px;
+    height: 24px;
+    float: left;
+}
+#menu{
+    width: auto; /*Como ele está dentro de largura site e ela já tem uma largura ent pode colocar auto*/
+    height: auto;
+    float: right;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: bold;
+}
+#menu a{
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+}
+#menu a:hover{
+    text-decoration: underline;
+}
+body{
+    margin: 0; /*Antes havia um espaçamento no topo da página, fiz isso pra tirar*/
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    scroll-behavior: smooth;
+}
+.conteudo{
+    width: 100%;
+    height: auto;
+    float: left;
+    line-height: 1.5; /*Coloquei um espaçamento entre as linhas de 1.5 (padrão abnt)*/
+    margin-top: 0;
+    border-bottom: 1px darkcyan solid;
+}
+#imagemdestaque{
+    float: left;
+    margin-right: 20px;
+    margin-top: 40px;
+}
+#imagenshome img{
+    padding: 5px;
+    margin-top: 20px;
+}
+#conteudohome{
+    margin-top: 40px;
+}  
+#rodape{
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background-color: darkcyan;
+    float: left;
+    color: white;
+    font-weight: bold;
+    margin-top: 0;
+}
+#contatos.conteudo{
+    border-bottom: 0;
+}
+form{
+    float: right;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+input[type=text]{
+    height: 18px;
+    width: 260px;
+    background-color: rgb(226, 226, 226);
+    margin-bottom: 10px;
+    border: 1px solid rgb(182, 182, 182);
+    border-radius: 3px;
+} /*Apenas para os inputs de texto*/
+input[type=submit]{
+    width: 235px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    height: 25px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, 'Times New Roman', Times, serif;
+    font-size: 20px;
+} /*Apenas para os inputs de submit*/
+textarea{
+    resize: none; /*resize none tira a opção de alterar o tamanho do textarea*/
+    border-radius: 3px;
+    border: 1px solid rgb(182, 182, 182);
+} 
+#menu img{
+    width: 25px;
+    height: 25px;
+    padding-left: 1px;
+    line-height: 30px;
+}
+#servicos ul{
+ float: right; 
+ width: 529px; 
+ height: auto; 
+ margin-bottom: 0;
+ list-style-type: square; /*altera o marcador da lista*/
+ list-style-position: inside; /*Posição */
+}
+#servicos li{
+    padding-bottom: 10px;
+}
+.icon{
+    width: 24px;
+    height: 25px;
+    padding-left: 1px;
+    float: right;
+}
+
